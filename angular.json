@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "escenitech": {
+    "escenit": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/escenitech",
+            "outputPath": "dist/escenit",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "escenitech:build"
+            "browserTarget": "escenit:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "escenitech:build:production"
+              "browserTarget": "escenit:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "escenitech:build"
+            "browserTarget": "escenit:build"
           }
         },
         "test": {
@@ -107,7 +107,7 @@
         }
       }
     },
-    "escenitech-e2e": {
+    "escenit-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -116,11 +116,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "escenitech:serve"
+            "devServerTarget": "escenit:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "escenitech:serve:production"
+              "devServerTarget": "escenit:serve:production"
             }
           }
         },
@@ -136,5 +136,5 @@
       }
     }
   },
-  "defaultProject": "escenitech"
+  "defaultProject": "escenit"
 }

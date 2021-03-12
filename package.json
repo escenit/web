@@ -1,5 +1,5 @@
 {
-  "name": "escenitech",
+  "name": "escenit",
   "version": "1.1.0",
   "scripts": {
     "ng": "ng",
@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy-gh": "ng build --prod --base-href https://escenitech.com && npx ngh --dir=dist/escenitech --cname=escenitech.com"
+    "deploy-gh": "ng build --prod --base-href https://escenit.com && npx ngh --dir=dist/escenit --cname=escenit.com"
   },
   "private": true,
   "dependencies": {
