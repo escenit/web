@@ -1,0 +1,9 @@
+@import "../../../styles-variables";
+
+h3{
+  margin-top: $content-padding*2;
+}
+.sp-btn{
+  padding: $content-padding $content-padding*2;
+  font-size: $font-size-normal-up;
+}
