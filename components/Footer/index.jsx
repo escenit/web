@@ -11,7 +11,7 @@ const Footer = () => {
 
                 <div className="w-full bg-primary/10 py-10">
                     <div className="container relative">
-                        <div className="absolute left-0">
+                        <div className="absolute left-0 hidden md:block">
                             <Link href="/" className="mb-8 inline-block">
                                 <Image
                                     src="images/logo/logo-2.svg"
