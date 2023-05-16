@@ -1,4 +1,5 @@
 import List from "@/components/Common/List";
+import Image from "next/image";
 
 
 const AboutSectionOne = () => {
@@ -8,8 +9,13 @@ const AboutSectionOne = () => {
             <div
                 className="wow fadeInUp h-64 lg:h-auto lg:w-1/3 flex-none bg-cover text-center "
                 title="Sobre nosotros" data-wow-delay=".15s">
-                <img className="object-cover object-center rounded" alt="Transformación digital"
-                     src="/images/about/hero_1.jpg"/>
+                <div className="relative w-full h-full object-contain">
+                    <Image
+                        alt='Mountains'
+                        src="/images/about/hero_1.jpg"
+                        fill
+                    />
+                </div>
             </div>
             <div className="wow fadeInUp p-12 flex flex-col justify-between leading-normal w-full lg:w-2/3"
                  data-wow-delay=".15s">

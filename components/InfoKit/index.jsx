@@ -2,6 +2,7 @@
 import SectionTitle from "@/components/Common/SectionTitle";
 import Link from "next/link";
 import infoKitData from "@/components/InfoKit/infoKitData";
+import Image from "next/image";
 
 const InfoKit = () => {
 
@@ -21,8 +22,13 @@ const InfoKit = () => {
                             className="wow fadeInLeftBig relative m-auto mb-8"
                             data-wow-delay=".3s"
                         >
-                            <img className="object-cover object-center rounded" alt="Transformación digital"
-                                 src="/images/kit-digital/digital-transform.png"/>
+                            <div className="relative w-full h-[300px] object-contain">
+                                <Image
+                                    alt='Transformación digital'
+                                    src="/images/kit-digital/digital-transform.png"
+                                    fill="true"
+                                />
+                            </div>
                         </div>
                     </div>
                     <div className="w-full px-4 lg:w-1/2">
