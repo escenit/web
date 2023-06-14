@@ -27,9 +27,9 @@ const AboutSectionOne = () => {
                         className=" w-full mt-8 mx-auto">
                         <div className="flex flex-wrap">
                             <div className="w-full px-3 sm:w-1/2 lg:w-1/2 xl:w-1/2">
-                                <List text="Inovación técnologica"/>
+                                <List text="Inovación tecnológica"/>
                                 <List text="Soluciones integrales"/>
-                                <List text="Métodología Ágil"/>
+                                <List text="Metodología Ágil"/>
                             </div>
 
                             <div className="w-full px-3 sm:w-1/2 lg:w-1/2 xl:w-1/2">

@@ -43,7 +43,7 @@ const InfoKit = () => {
                                 Es un programa de <strong className="text-primary dark:text-white">ayudas
                                 directas</strong>, provenientes de los fondos europeos Next
                                 Generation EU. Está dirigido a las PYMES y autónomos para impulsar o consolidar
-                                el entorno digital sus las empresas.
+                                el entorno digital de su empresa.
 
                                 El KIT DIGITAL está pensado para <strong className="text-primary dark:text-white">ayudar
                                 en la innovación</strong> de ámbitos como la
