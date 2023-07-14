@@ -9,6 +9,7 @@ import Contact from "@/components/Contact";
 import Project from "@/components/Project";
 import InfoKit from "@/components/InfoKit";
 import About from "@/components/About";
+import Index from "@/components/WhatsAppButton";
 
 export default function Home() {
     useEffect(() => {

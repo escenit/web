@@ -8,6 +8,8 @@ import "../styles/index.css";
 
 import {Providers} from "./providers";
 import Head from "@/app/head";
+import Index from "@/components/WhatsAppButton";
+import React from "react";
 
 export default function RootLayout({children}) {
     return (
@@ -18,12 +20,13 @@ export default function RootLayout({children}) {
           */}
         <Head/>
 
-        <body className="dark:bg-black">
+        <body className="dark:bg-black scrolldiv">
         <Providers>
             <Header/>
             {children}
             <Footer/>
             <ScrollToTop/>
+            <Index/>
         </Providers>
         </body>
         </html>
