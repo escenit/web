@@ -9,9 +9,14 @@ import Contact from "@/components/Contact";
 import Project from "@/components/Project";
 import InfoKit from "@/components/InfoKit";
 import About from "@/components/About";
-import Index from "@/components/WhatsAppButton";
+import ReactGA from 'react-ga';
+
+const TRACKING_ID = "G-K73FPK3W5L";
 
 export default function Home() {
+
+    ReactGA.initialize(TRACKING_ID);
+
     useEffect(() => {
         const WOW = require("wowjs/dist/wow.js");
         const wow = new WOW.WOW({live: false});
