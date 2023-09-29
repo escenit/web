@@ -29,6 +29,7 @@ export default function Home() {
                 src={`https://www.googletagmanager.com/gtag/js?id=G-K73FPK3W5L`}
             />
             <Script
+                id="gtagInit"
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{
                     __html: `
