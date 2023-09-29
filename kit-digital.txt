@@ -1,8 +1,8 @@
-1:HL["/_next/static/css/c278176d4cec3dc6.css",{"as":"style"}]
-0:[[["",{"children":["kit-digital",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/c278176d4cec3dc6.css","precedence":"next"}]],["$L3",null]]]]
-4:I{"id":"2397","chunks":["43:static/chunks/43-d1bc936d7e254ac1.js","277:static/chunks/277-f4ec67ea5424b4f0.js","185:static/chunks/app/layout-46c668155e3a47b2.js"],"name":"","async":false}
-5:I{"id":"9544","chunks":["272:static/chunks/webpack-a249d601f25c9149.js","667:static/chunks/2443530c-0a6f94e70d430d82.js","139:static/chunks/139-8b2e30a62857fe56.js"],"name":"","async":false}
-6:I{"id":"99","chunks":["272:static/chunks/webpack-a249d601f25c9149.js","667:static/chunks/2443530c-0a6f94e70d430d82.js","139:static/chunks/139-8b2e30a62857fe56.js"],"name":"","async":false}
+1:HL["/_next/static/css/71629b95072c636a.css",{"as":"style"}]
+0:[[["",{"children":["kit-digital",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/71629b95072c636a.css","precedence":"next"}]],["$L3",null]]]]
+4:I{"id":"8717","chunks":["43:static/chunks/43-d1bc936d7e254ac1.js","277:static/chunks/277-f4ec67ea5424b4f0.js","185:static/chunks/app/layout-d5c680bc15bc3414.js"],"name":"","async":false}
+5:I{"id":"9544","chunks":["272:static/chunks/webpack-410f127e630256c7.js","667:static/chunks/2443530c-0a6f94e70d430d82.js","139:static/chunks/139-8b2e30a62857fe56.js"],"name":"","async":false}
+6:I{"id":"99","chunks":["272:static/chunks/webpack-410f127e630256c7.js","667:static/chunks/2443530c-0a6f94e70d430d82.js","139:static/chunks/139-8b2e30a62857fe56.js"],"name":"","async":false}
 7:I{"id":"414","chunks":["43:static/chunks/43-d1bc936d7e254ac1.js","416:static/chunks/app/kit-digital/page-7c01bca365f686a5.js"],"name":"","async":false}
 8:I{"id":"2011","chunks":["43:static/chunks/43-d1bc936d7e254ac1.js","416:static/chunks/app/kit-digital/page-7c01bca365f686a5.js"],"name":"","async":false}
 9:I{"id":"2142","chunks":["43:static/chunks/43-d1bc936d7e254ac1.js","416:static/chunks/app/kit-digital/page-7c01bca365f686a5.js"],"name":"","async":false}
