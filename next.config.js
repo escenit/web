@@ -2,7 +2,7 @@
 const nextConfig = {
     output: 'export',
     images: {unoptimized: true},
-    basePath: "/escenit/web"
+    basePath: "/"
 };
 
 module.exports = nextConfig;
