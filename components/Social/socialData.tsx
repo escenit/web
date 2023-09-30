@@ -1,4 +1,6 @@
-const socialData = [
+import { Social } from "@/types/social";
+
+const socialData: Social[] = [
   {
     id: 1,
     title: "linkedin",

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { useState } from "react";
-import aboutData from '@/components/About/AboutData';
+import aboutData from "@/components/About/AboutData";
 
 const AboutSectionTwo = () => {
   const [activeData, setActiveData] = useState(aboutData[0].id);

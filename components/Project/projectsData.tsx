@@ -1,4 +1,6 @@
-const projectsData = [
+import { Project } from "@/types/project";
+
+const projectsData: Project[] = [
   {
     id: 1,
     title: "ALBARÁN DIGITAL",

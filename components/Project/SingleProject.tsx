@@ -1,6 +1,7 @@
 import Image from "next/image";
+import { Project } from "@/types/project";
 
-const SingleProject = ({ project }) => {
+const SingleProject = ({ project }: { project: Project }) => {
   const { title, image, paragraph, client, tags, delay } = project;
   return (
     <>
@@ -10,12 +11,12 @@ const SingleProject = ({ project }) => {
         data-wow-duration="3s"
       >
         <div className="relative block h-[220px] w-full">
-          <span className="absolute top-6 right-6 z-20 inline-flex items-center justify-center rounded-full bg-primary py-2 px-4 text-sm font-semibold capitalize text-white">
+          <span className="absolute right-6 top-6 z-20 inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold capitalize text-white">
             {tags[0]}
           </span>
           <Image src={image} alt="image" fill />
         </div>
-        <div className="p-6 sm:p-8 md:py-8 md:px-6 lg:p-8 xl:py-8 xl:px-5 2xl:p-8">
+        <div className="p-6 sm:p-8 md:px-6 md:py-8 lg:p-8 xl:px-5 xl:py-8 2xl:p-8">
           <h3 className="mb-4 block text-xl font-bold text-black hover:text-primary dark:text-white dark:hover:text-primary sm:text-2xl">
             {title}
           </h3>

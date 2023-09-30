@@ -1,4 +1,6 @@
-const aboutData = [
+import { About } from "@/types/info";
+
+const aboutData: About[] = [
   {
     id: 1,
     title: "Proximidad y comunicación",

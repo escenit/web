@@ -1,6 +1,7 @@
 import parse from "html-react-parser";
+import { Social } from "@/types/social";
 
-const SingleSocial = ({ social }) => {
+const SingleSocial = ({ social }: { social: Social }) => {
   const { title, path } = social;
   return (
     <>
