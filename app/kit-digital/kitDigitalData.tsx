@@ -26,7 +26,6 @@ const kitDigitalData = [
           status="active"
           type="basic"
         />
-
         <KitList
           text="Dominio durante un plazo mínimo de doce meses. La titularidad exclusiva del cliente"
           status="active"

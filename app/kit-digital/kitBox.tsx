@@ -18,7 +18,7 @@ const KitBox = (props: {
   );
 
   const childExtra = React.Children.toArray(children).filter(
-    (child) => (child as React.ReactElement).type === "extra"
+    (child) => (child as React.ReactElement).props.type === "extra"
   );
 
   return (
