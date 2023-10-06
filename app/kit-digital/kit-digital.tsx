@@ -3,7 +3,7 @@ import Kits from "@/app/kit-digital/kits";
 import kitDigitalData from "@/app/kit-digital/kitDigitalData";
 import Image from "next/image";
 
-const Page = () => {
+const KitDigital = () => {
   return (
     <>
       <Breadcrumb
@@ -29,4 +29,4 @@ const Page = () => {
     </>
   );
 };
-export default Page;
+export default KitDigital;
