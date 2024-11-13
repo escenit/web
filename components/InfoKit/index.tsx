@@ -3,16 +3,17 @@ import SectionTitle from "@/components/Common/SectionTitle";
 import Link from "next/link";
 import infoKitData from "@/components/InfoKit/infoKitData";
 import Image from "next/image";
+import { Link as LinkScroll } from "react-scroll";
 
 const InfoKit = () => {
   return (
     <section id="pricing" className="pt-16 md:pt-20 lg:px-28 lg:pt-28">
       <div className="container">
         <SectionTitle
-          title="Kit Digital"
+          title="Kit Digital / Kit Consulting"
           center
           mb="20px"
-          paragraph="Acelera o consolida la digitalización de tu negocio con el plan de ayudas kit digital"
+          paragraph="Impulsa la digitalización de tu negocio con las ayudas del programa Kit Digital y Kit Consulting, diseñadas para apoyar a las pymes."
         />
 
         <div className="mb-16 flex flex-wrap items-center">
@@ -24,7 +25,7 @@ const InfoKit = () => {
               <div className="relative h-[300px] w-full object-contain">
                 <Image
                   alt="Transformación digital"
-                  src="/images/kit-digital/digital-transform.png"
+                  src="/images/kit-digital/kitdigital-kitconsulting.webp"
                   fill={true}
                 />
               </div>
@@ -42,7 +43,7 @@ const InfoKit = () => {
                 </strong>
                 , provenientes de los fondos europeos Next Generation EU. Está
                 dirigido a las PYMES y autónomos para impulsar o consolidar el
-                entorno digital de su empresa. El KIT DIGITAL está pensado para{" "}
+                entorno digital de su empresa. El KIT DIGITAL / KIT CONSULTING están pensados para{" "}
                 <strong className="text-primary dark:text-white">
                   ayudar en la innovación
                 </strong>{" "}
@@ -67,7 +68,7 @@ const InfoKit = () => {
         {infoKitData.map((infoKit) => (
           <div
             key={infoKit.id}
-            className="wow fadeIn relative h-full h-full w-full overflow-hidden rounded-md bg-primary  bg-opacity-5 shadow-one dark:bg-dark"
+            className="wow fadeIn relative h-full w-full overflow-hidden rounded-md bg-primary  bg-opacity-5 shadow-one dark:bg-dark"
             data-wow-delay={infoKit.delay}
             data-wow-duration="1.5s"
           >
@@ -84,13 +85,17 @@ const InfoKit = () => {
         ))}
       </div>
       <div className="mb-16 flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-        <Link
-          href="mailto:contact@escenit.com?subject=Solicitar Kit Digital&body=Quiero solicitar el Kit Digital"
-          className="wow pulse cursor-pointer rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-700 duration-300 ease-in-out hover:bg-primary/80"
-          data-wow-iteration="infinite"
+        <LinkScroll
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          duration={750}
+          onSetActive={() => {}}
+          className="cursor-pointer rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
         >
-          SOLICITA EL KIT
-        </Link>
+          CONTACTAR
+        </LinkScroll>
         <Link
           href="/kit-digital"
           className="cursor-pointer rounded-md bg-black/20 py-4 px-8 text-base font-semibold text-black duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"

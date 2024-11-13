@@ -10,6 +10,7 @@ import Project from "@/components/Project";
 import InfoKit from "@/components/InfoKit";
 import Script from "next/script";
 import About from "@/components/About";
+import InfoOdoo from "@/components/InfoOdoo";
 
 export default function Home() {
   useEffect(() => {
@@ -45,6 +46,7 @@ export default function Home() {
       <About />
       <Technologies />
       <InfoKit />
+      <InfoOdoo />
       <Project />
       <Contact />
     </>

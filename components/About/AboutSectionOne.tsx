@@ -28,12 +28,15 @@ const AboutSectionOne = () => {
                 <List text="Innovación tecnológica" />
                 <List text="Soluciones integrales" />
                 <List text="Metodología Ágil" />
-              </div>
-
-              <div className="w-full px-3 sm:w-1/2 lg:w-1/2 xl:w-1/2">
                 <List text="Entregas en plazo" />
                 <List text="Proactivos" />
                 <List text="Asesoramiento" />
+              </div>
+
+              <div className="w-full px-3 sm:w-1/2 lg:w-1/2 xl:w-1/2">
+                <List text="Somos Partner Odoo" />
+                <List text="Kit Digital" />
+                <List text="Kit Consulting" />
               </div>
             </div>
           </div>
