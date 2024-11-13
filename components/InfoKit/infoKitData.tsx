@@ -20,7 +20,7 @@ const infoKitData = [
   },
   {
     id: 2,
-    title: "CONCESIÓN DEL KIT DIGITAL",
+    title: "CONCESIÓN DEL KIT DIGITAL / KIT CONSULTING",
     paragraph: "Destina la ayuda a la digitalización de la empresa",
     icon: (
       <svg
