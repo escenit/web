@@ -42,7 +42,7 @@ const Technologies = (items) => {
     <>
       <section
         id="technologies"
-        className="section bg-primary/[.03] py-16 md:py-20 lg:py-28"
+        className="section bg-primary/[.15] py-16 md:py-20 lg:py-28"
       >
         <div className="container">
           <SectionTitle

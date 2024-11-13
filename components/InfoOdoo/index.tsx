@@ -7,7 +7,7 @@ import { Link as LinkScroll } from "react-scroll";
 
 const InfoOdoo = () => {
   return (
-    <section id="pricing" className="pt-16 md:pt-20 lg:px-28 lg:pt-28">
+    <section id="pricing" className=" bg-primary/[.15] py-16 md:pt-20 lg:px-28 lg:pt-28">
       <div className="container">
         <SectionTitle
           title="Somos Partner de Odoo"
@@ -56,7 +56,7 @@ const InfoOdoo = () => {
           </div>
         </div>
 
-      <div className="mb-16 flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+      <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
         <LinkScroll
           activeClass="active"
           to="contact"
