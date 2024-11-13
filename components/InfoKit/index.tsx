@@ -68,7 +68,7 @@ const InfoKit = () => {
         {infoKitData.map((infoKit) => (
           <div
             key={infoKit.id}
-            className="wow fadeIn relative h-full h-full w-full overflow-hidden rounded-md bg-primary  bg-opacity-5 shadow-one dark:bg-dark"
+            className="wow fadeIn relative h-full w-full overflow-hidden rounded-md bg-primary  bg-opacity-5 shadow-one dark:bg-dark"
             data-wow-delay={infoKit.delay}
             data-wow-duration="1.5s"
           >
