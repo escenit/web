@@ -22,10 +22,11 @@ const InfoOdoo = () => {
               className="wow fadeInLeftBig relative m-auto mb-8"
               data-wow-delay=".3s"
             >
-              <div className="relative h-[300px] w-full object-contain">
+              <div className="relative h-[300px] w-full">
                 <Image
                   alt="Transformación digital"
                   src="/images/odoo/erp-system-odoo.webp"
+                  className="object-cover"
                   fill={true}
                 />
               </div>

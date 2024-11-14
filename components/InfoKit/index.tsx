@@ -22,10 +22,11 @@ const InfoKit = () => {
               className="wow fadeInLeftBig relative m-auto mb-8"
               data-wow-delay=".3s"
             >
-              <div className="relative h-[300px] w-full object-contain">
+              <div className="relative w-auto h-[390px] rounded-xl overflow-hidden">
                 <Image
                   alt="Transformación digital"
                   src="/images/kit-digital/kitdigital-kitconsulting.webp"
+                  className="object-cover"
                   fill={true}
                 />
               </div>

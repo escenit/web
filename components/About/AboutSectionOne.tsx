@@ -9,8 +9,8 @@ const AboutSectionOne = () => {
         title="Sobre nosotros"
         data-wow-delay=".15s"
       >
-        <div className="relative h-full w-full object-contain">
-          <Image alt="Mountains" src="/images/about/hero_1.jpg" fill />
+        <div className="relative h-full w-full">
+          <Image alt="Mountains" src="/images/about/hero_1.jpg" className="object-cover" fill />
         </div>
       </div>
       <div
