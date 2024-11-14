@@ -11,20 +11,21 @@ const Page = () => {
         description="Acelera o consolida la digitalización de tu negocio con el plan de ayudas kit digital."
       />
 
-      <div className="h-[120px] w-full bg-white p-2">
+      <div className="container mx-auto">
+        <Kits tabs={kitDigitalData} />
+      </div>
+
+      <div className="h-[300px] w-full p-2">
         <div
           data-wow-delay=".2s"
-          className="wow fadeInUp container relative mx-auto mx-auto h-[100px] w-11/12  bg-white object-contain px-4"
-        >
+          className="wow fadeInUp container relative mx-auto h-full px-4 dark:bg-dark">
           <Image
             alt="Transformación digital"
-            src="/images/kit-digital/logo.png"
+            src="/images/kit-digital/Faldon_Plataforma_Logotipos.webp"
+            className="object-contain dark:mix-blend-exclusion"
             fill
           />
         </div>
-      </div>
-      <div className="container mx-auto  lg:py-10">
-        <Kits tabs={kitDigitalData} />
       </div>
     </>
   );
