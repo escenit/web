@@ -17,7 +17,7 @@ const AboutSectionOne = () => {
         className="wow fadeInUp flex w-full flex-col justify-between p-12 leading-normal lg:w-2/3"
         data-wow-delay=".15s"
       >
-        <p className="mx-auto text-center text-lg font-medium text-body-color xl:text-left">
+        <p className="mx-auto text-center text-lg font-medium text-body-color dark:text-white/75 xl:text-left">
           Ofrecemos a nuestros clientes una solución tecnológica a medida para
           adaptar su negocio al futuro.
         </p>

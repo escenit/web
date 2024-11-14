@@ -22,7 +22,7 @@ const AboutSectionTwo = () => {
                 {data.title}
               </div>
             </div>
-            <div className="bg-gray-100 flex h-full min-h-[15rem] w-full items-center text-base font-medium leading-relaxed text-body-color dark:bg-dark lg:min-h-[19rem] lg:w-3/5">
+            <div className="bg-gray-100 flex h-full min-h-[15rem] w-full items-center text-base font-medium leading-relaxed text-body-color dark:text-white/75 dark:bg-dark lg:min-h-[19rem] lg:w-3/5">
               <div className="p-12 lg:py-12 lg:pr-24 lg:pl-16">
                 <p className="text-gray-600 text-justify">{data.paragraph}</p>
               </div>

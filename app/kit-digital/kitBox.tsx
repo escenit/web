@@ -47,7 +47,7 @@ const KitBox = (props: {
                 <h3 className="price mb-2 text-black dark:text-white">
                   {eligible}
                 </h3>
-                <p className="mb-7 px-8 pb-4 text-sm text-body-color">
+                <p className="mb-7 px-8 pb-4 text-sm text-body-color dark:text-white/75">
                   {subtitle}
                 </p>
               </div>

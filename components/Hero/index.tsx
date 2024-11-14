@@ -31,7 +31,7 @@ const Hero = () => {
                     ]
                   </div>
                 </h1>
-                <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
+                <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white/75 dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
                   Nuestro compromiso con los clientes es ofrecerles soluciones
                   de valor a través de la tecnología. Trabajamos para
                   digitalizar procesos obsoletos y desarrollar nuevas soluciones

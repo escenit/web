@@ -36,7 +36,7 @@ const InfoKit = () => {
               <h2 className="mb-4 text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[30px]">
                 ¿En qué consiste?
               </h2>
-              <p className="text-base !leading-relaxed text-body-color md:text-lg">
+              <p className="text-base !leading-relaxed text-body-color dark:text-white/75 md:text-lg">
                 Es un programa de{" "}
                 <strong className="text-primary dark:text-white">
                   ayudas directas
@@ -78,7 +78,7 @@ const InfoKit = () => {
             <h3 className="mb-4 block text-center text-xl font-bold text-black hover:text-primary dark:text-white dark:hover:text-primary sm:text-2xl">
               {infoKit.title}
             </h3>
-            <p className="mx-6 mb-6 pb-6 text-center text-base font-medium text-body-color">
+            <p className="mx-6 mb-6 pb-6 text-center text-base font-medium text-body-color dark:text-white/75">
               {infoKit.paragraph}
             </p>
           </div>

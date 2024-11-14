@@ -46,7 +46,7 @@ const Kits = ({ tabs }) => {
                         {target.title}
                       </h3>
                     </div>
-                    <div className="text-center text-base font-medium italic text-body-color">
+                    <div className="text-center text-base font-medium italic text-body-color dark:text-white/75">
                       <ul className="p-3 md:p-5 lg:p-4 xl:p-5">
                         <li className="p-2 md:p-4 lg:p-3 xl:p-4">
                           De{" "}

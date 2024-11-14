@@ -20,7 +20,7 @@ const SingleProject = ({ project }: { project: Project }) => {
           <h3 className="mb-4 block text-xl font-bold text-black hover:text-primary dark:text-white dark:hover:text-primary sm:text-2xl">
             {title}
           </h3>
-          <p className="mb-6  pb-6 text-base font-medium text-body-color">
+          <p className="mb-6  pb-6 text-base font-medium text-body-color dark:text-white/75">
             {paragraph}
           </p>
           <div className="absolute bottom-0 right-0 flex items-center pb-5">

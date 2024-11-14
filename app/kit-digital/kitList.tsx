@@ -27,12 +27,12 @@ const KitList = ({
         <span className="mr-3 flex h-[18px] w-full max-w-[18px] items-center justify-center rounded-full bg-primary bg-opacity-10 text-primary dark:bg-white dark:text-black">
           {status === "active" ? checkIcon : crossIcon}
         </span>
-        <p className="m-0 text-base font-medium text-body-color">{text}</p>
+        <p className="m-0 text-base font-medium text-body-color dark:text-white/75">{text}</p>
       </div>
       {subtext ? (
         <div className="mb-3 ml-8 flex items-center">
           <span className="mr-3 flex h-[18px] w-full max-w-[18px] items-center justify-center rounded-full bg-primary bg-opacity-10 text-primary dark:bg-white dark:text-black"></span>
-          <p className="m-0 text-base font-medium text-body-color">{subtext}</p>
+          <p className="m-0 text-base font-medium text-body-color dark:text-white/75">{subtext}</p>
         </div>
       ) : (
         ""
