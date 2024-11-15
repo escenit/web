@@ -3,6 +3,7 @@ import SectionTitle from "@/components/Common/SectionTitle";
 import SingleFeature from "./OdooSingleFeature";
 import featuresData from "./OdoofeaturesData";
 import Image from "next/image";
+import Link from "next/link";
 import { Link as LinkScroll } from "react-scroll";
 
 const InfoOdoo = () => {
