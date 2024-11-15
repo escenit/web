@@ -19,7 +19,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className=" bg-primary/[.15] overflow-hidden py-16 md:py-20 lg:py-28">
+    <section id="contact" className=" bg-primary/[.09] overflow-hidden py-16 md:py-20 lg:py-28">
       <div className="container">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 lg:w-7/12 xl:w-8/12">
@@ -31,7 +31,7 @@ const Contact = () => {
               <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
                 ¿Quieres contactar con nosotros?
               </h2>
-              <p className="mb-12 text-base font-medium text-body-color">
+              <p className="mb-12 text-base font-medium text-body-color dark:text-white/75">
                 Rellena el formulario o contáctanos directamente a{" "}
                 <Link href="mailto:contact@escenit.com" target="_blank">
                   contact@escenit.com
@@ -52,7 +52,7 @@ const Contact = () => {
                         required={true}
                         type="text"
                         placeholder="Introduce el nombre"
-                        className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
+                        className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color dark:text-white/75 placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                       />
                     </div>
                   </div>
@@ -69,7 +69,7 @@ const Contact = () => {
                         required={true}
                         type="email"
                         placeholder="Introduce el correo"
-                        className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
+                        className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color dark:text-white/75 placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                       />
                     </div>
                   </div>
@@ -86,7 +86,7 @@ const Contact = () => {
                         name="message"
                         rows={5}
                         placeholder="Escribe tu mensaje"
-                        className="w-full resize-none rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
+                        className="w-full resize-none rounded-md border border-transparent py-3 px-6 text-base text-body-color dark:text-white/75 placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                       ></textarea>
                     </div>
                   </div>

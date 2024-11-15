@@ -2,16 +2,16 @@
 import React, { useState } from "react";
 import SectionTitle from "@/components/Common/SectionTitle";
 
-const Kits = ({ tabs }) => {
+const KitsComputing = ({ tabs }) => {
   const [activeTab, setActiveTab] = useState(tabs[0].label);
 
   return (
     <div>
-      <div className="text-gray-500 dark:text-gray-400 flex flex-wrap justify-center space-x-2 text-center text-sm font-medium ">
+      <div className="text-gray-500 dark:text-gray-400 flex flex-wrap justify-center gap-2 text-center text-sm font-medium mt-6 lg:mt-0">
         {tabs.map((tab) => (
           <div
             key={tab.id}
-            className={`active tab my-3  inline-block cursor-pointer rounded-md  py-4 px-5 font-semibold text-white ${
+            className={`active tab inline-block cursor-pointer rounded-md  py-4 px-5 font-semibold text-white ${
               tab.label === activeTab
                 ? "tab-active animate__animated animate__fadeIn bg-primary"
                 : "bg-body-color duration-300 ease-in-out hover:bg-primary/80"
@@ -29,8 +29,8 @@ const Kits = ({ tabs }) => {
 
             <div className="pt-10">
               <SectionTitle
-                title="¿A qué tipo de empresas se dirige esta solución?"
-                paragraph="Segmentos de beneficiarios – Importe subvención del «bono digital»"
+                title="¿A qué tipo de empresas se dirige este asesoramiento?"
+                paragraph="Segmentos de beneficiarios – Importe de la ayuda"
                 center
                 mb="20px"
                 width="100%"
@@ -57,7 +57,7 @@ const Kits = ({ tabs }) => {
                           empleados.
                         </li>
                         <li className="p-2 md:p-4 lg:p-3 xl:p-4">
-                          Subvención:{" "}
+                          Ayuda máxima:{" "}
                           <strong className="text-primary dark:text-white">
                             {target.eligible}
                           </strong>
@@ -82,4 +82,4 @@ const Kits = ({ tabs }) => {
   );
 };
 
-export default Kits;
+export default KitsComputing;

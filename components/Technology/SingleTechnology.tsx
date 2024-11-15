@@ -13,7 +13,7 @@ const SingleTechnology = ({ tech }) => {
       </div>
       <div className="flex flex-col">
         <span className="ml-3 flex-1 font-bold">{name}</span>
-        <span className="ml-3 flex-1 ">{description}</span>
+        <span className="ml-3 flex-1 text-body-color dark:text-white/75">{description}</span>
       </div>
     </div>
   );

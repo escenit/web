@@ -1,18 +1,18 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import Kits from "@/app/kit-digital/kits";
-import kitDigitalData from "@/app/kit-digital/kitDigitalData";
+import Kits from "@/app/kit-consulting/kitConsulting";
+import kitConsultingData from "@/app/kit-consulting/kitConsultingData";
 import Image from "next/image";
 
 const Page = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Kit Digital"
-        description="Acelera o consolida la digitalización de tu negocio con el plan de ayudas kit digital."
+        pageName="Kit Consulting"
+        description="Kit Consulting es un programa de ayudas del Gobierno de España diseñado para impulsar la transformación digital de pequeñas y medianas empresas (pymes). Escoge entre nuestras categorías de asesoramiento."
       />
 
       <div className="container mx-auto">
-        <Kits tabs={kitDigitalData} />
+        <Kits tabs={kitConsultingData} />
       </div>
 
       <div className="h-[300px] w-full p-2">

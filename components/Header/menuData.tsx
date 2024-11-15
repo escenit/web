@@ -18,7 +18,7 @@ const menuData: Menu[] = [
   },
   {
     id: 4,
-    title: "Kit Digital",
+    title: "Kit Digital / Kit Consulting",
     path: "pricing",
   },
   {

@@ -7,7 +7,7 @@ const Features = () => {
     <>
       <section
         id="features"
-        className="section bg-primary/[.15] py-16 md:py-20 lg:py-28"
+        className="section bg-primary/[.09] py-16 md:py-20 lg:py-28"
       >
         <div className="container">
           <SectionTitle

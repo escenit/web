@@ -9,7 +9,7 @@ const WorkWithUs = () => {
       <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
         ¡Únete al equipo!
       </h2>
-      <p className="mb-12 text-base font-medium text-body-color">
+      <p className="mb-12 text-base font-medium text-body-color dark:text-white/75">
         Si buscas un nuevo desafio y formar parte de nuestra empresa no dudes en
         revisar nuestras ofertas.
       </p>
