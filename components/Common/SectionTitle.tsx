@@ -24,10 +24,10 @@ const SectionTitle = ({
           {title.toUpperCase()}
         </h2>
         <hr className="mx-auto mb-2 h-1 w-10 rounded border-0 bg-primary " />
-        <p className="text-base !leading-relaxed text-body-color md:text-lg">
+        <p className="text-base !leading-relaxed text-body-color dark:text-white/75 md:text-lg">
           {paragraph}
         </p>
-        <p className="text-base !leading-relaxed text-body-color md:text-lg">
+        <p className="text-base !leading-relaxed text-body-color dark:text-white/75 md:text-lg">
           {subparagraph}
         </p>
       </div>

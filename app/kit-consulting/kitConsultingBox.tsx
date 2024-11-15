@@ -27,15 +27,18 @@ const KitBox = (props: {
         className="wow fadeInUp relative z-10  px-8 py-10 dark:bg-[#1D2144]"
         data-wow-delay=".1s"
       >
-        <div className="relative flex flex-col sm:flex-row lg:flex-row">
+        <div className="relative flex flex-col sm:flex-row lg:flex-row gap-8">
           <div className="relative mb-10 flex-1 pb-7 text-left md:pb-8 lg:pb-7 xl:pb-8">
             <div className="pb-8">
               <h2 className="mb-8 text-3xl font-bold text-purple-500 dark:text-purple-100  md:text-[35px]">
                 {title}
               </h2>
+              <p className="mb-4 text-base">
+                {subtitle}
+              </p>
             </div>
             <div className="m-auto w-11/12">{childBasic}</div>
-            <div className="relative bottom-0 w-full text-center lg:absolute">
+{/*             <div className="relative bottom-0 w-full text-center lg:absolute">
               <div className="pt-8 text-sm text-primary dark:text-white">
                 {slogan ? slogan : ""}
               </div>
@@ -52,11 +55,11 @@ const KitBox = (props: {
                 </p>
               </div>
             </div>
-          </div>
+ */}          </div>
           <div className="flex-1 text-left">
             <div className="z-10 mb-10 rounded-md bg-primary bg-opacity-10 p-7 md:p-8 lg:p-7 xl:p-8">
-              <h3 className="mr-3 mb-4 text-base font-bold  text-purple-500 dark:text-white">
-                ¿Qué incluye la solución?
+              <h3 className="mr-3 mb-4 text-xl font-bold  text-purple-500 dark:text-white">
+                Actividades
               </h3>
               {childExtra}
             </div>

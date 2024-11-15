@@ -9,15 +9,15 @@ const AboutSectionOne = () => {
         title="Sobre nosotros"
         data-wow-delay=".15s"
       >
-        <div className="relative h-full w-full object-contain">
-          <Image alt="Mountains" src="/images/about/hero_1.jpg" fill />
+        <div className="relative h-full w-full">
+          <Image alt="Mountains" src="/images/about/hero_1.jpg" className="object-cover" fill />
         </div>
       </div>
       <div
         className="wow fadeInUp flex w-full flex-col justify-between p-12 leading-normal lg:w-2/3"
         data-wow-delay=".15s"
       >
-        <p className="mx-auto text-center text-lg font-medium text-body-color xl:text-left">
+        <p className="mx-auto text-center text-lg font-medium text-body-color dark:text-white/75 xl:text-left">
           Ofrecemos a nuestros clientes una solución tecnológica a medida para
           adaptar su negocio al futuro.
         </p>
