@@ -24,7 +24,7 @@ const KitsComputing = ({ tabs }) => {
       </div>
       {tabs.map((tab) =>
         tab.label === activeTab ? (
-          <div key={tab.id + `_content`} className="p-4 text-center ">
+          <div key={tab.id + `_content`} className="md:p-4 text-center ">
             {tab.content}
 
             <div className="pt-10">

@@ -1,7 +1,9 @@
+"use client";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import Kits from "@/app/kit-consulting/kitConsulting";
 import kitConsultingData from "@/app/kit-consulting/kitConsultingData";
 import Image from "next/image";
+import ContactKits from "@/components/ContactKits";
 
 const Page = () => {
   return (
@@ -14,6 +16,8 @@ const Page = () => {
       <div className="container mx-auto">
         <Kits tabs={kitConsultingData} />
       </div>
+
+      <ContactKits />
 
       <div className="h-[300px] w-full p-2">
         <div
