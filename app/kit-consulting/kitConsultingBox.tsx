@@ -1,4 +1,5 @@
 import React, { ReactNode } from "react";
+import { Link as LinkScroll } from "react-scroll";
 
 const KitBox = (props: {
   packageName?: string;
@@ -24,7 +25,7 @@ const KitBox = (props: {
   return (
     <div className="w-full">
       <div
-        className="wow fadeInUp relative z-10  px-8 py-10 dark:bg-[#1D2144]"
+        className="wow fadeInUp relative z-10 md:px-8 py-10 dark:bg-[#1D2144]"
         data-wow-delay=".1s"
       >
         <div className="relative flex flex-col sm:flex-row lg:flex-row gap-8">
@@ -37,7 +38,7 @@ const KitBox = (props: {
                 {subtitle}
               </p>
             </div>
-            <div className="m-auto w-11/12">{childBasic}</div>
+            <div className="m-auto w-11/12 mb-16">{childBasic}</div>
 {/*             <div className="relative bottom-0 w-full text-center lg:absolute">
               <div className="pt-8 text-sm text-primary dark:text-white">
                 {slogan ? slogan : ""}
@@ -55,7 +56,19 @@ const KitBox = (props: {
                 </p>
               </div>
             </div>
- */}          </div>
+ */}    
+        <LinkScroll
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          duration={1000}
+          onSetActive={() => {}}
+          className="cursor-pointer rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+        >
+          CONTACTAR
+        </LinkScroll>      
+        </div>
           <div className="flex-1 text-left">
             <div className="z-10 mb-10 rounded-md bg-primary bg-opacity-10 p-7 md:p-8 lg:p-7 xl:p-8">
               <h3 className="mr-3 mb-4 text-xl font-bold  text-purple-500 dark:text-white">

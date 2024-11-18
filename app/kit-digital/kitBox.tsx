@@ -1,4 +1,5 @@
 import React, { ReactNode } from "react";
+import { Link as LinkScroll } from "react-scroll";
 
 const KitBox = (props: {
   packageName?: string;
@@ -24,7 +25,7 @@ const KitBox = (props: {
   return (
     <div className="w-full">
       <div
-        className="wow fadeInUp relative z-10  px-8 py-10 dark:bg-[#1D2144]"
+        className="wow fadeInUp relative z-10 md:px-8 py-10 dark:bg-[#1D2144]"
         data-wow-delay=".1s"
       >
         <div className="relative flex flex-col sm:flex-row lg:flex-row">
@@ -34,22 +35,33 @@ const KitBox = (props: {
                 {title}
               </h2>
             </div>
-            <div className="m-auto w-11/12">{childBasic}</div>
-            <div className="relative bottom-0 w-full text-center lg:absolute">
+            <div className="m-auto w-11/12 mb-12">{childBasic}</div>
+              <div className="w-full text-center">
               <div className="pt-8 text-sm text-primary dark:text-white">
                 {slogan ? slogan : ""}
               </div>
-              <div className="m-auto w-11/12 rounded-md border-2 border-primary border-opacity-5 dark:border-white">
-                <h3 className=" price mb-2 pt-4 text-black dark:text-white">
+              <div className="mx-auto w-11/12 rounded-md border-2 border-primary border-opacity-5 dark:border-white">
+                <h3 className="price mb-2 pt-4 text-black dark:text-white">
                   Precio entre <span className="amount">{priceMin}</span> y{" "}
                   <span className="amount">{priceMax}</span>
                 </h3>
                 <h3 className="price mb-2 text-black dark:text-white">
                   {eligible}
                 </h3>
-                <p className="mb-7 px-8 pb-4 text-sm text-body-color dark:text-white/75">
+                <p className="mb-3 px-8 pb-4 text-sm text-body-color dark:text-white/75">
                   {subtitle}
                 </p>
+                <LinkScroll
+                  activeClass="active"
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  duration={1000}
+                  onSetActive={() => {}}
+                  className="block cursor-pointer rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                >
+                  CONTACTAR
+                </LinkScroll> 
               </div>
             </div>
           </div>

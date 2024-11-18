@@ -11,7 +11,7 @@ const Kits = ({ tabs }) => {
         {tabs.map((tab) => (
           <div
             key={tab.id}
-            className={`active tab my-3  inline-block cursor-pointer rounded-md  py-4 px-5 font-semibold text-white ${
+            className={`active tab my-3 inline-block cursor-pointer rounded-md py-4 px-5 font-semibold text-white ${
               tab.label === activeTab
                 ? "tab-active animate__animated animate__fadeIn bg-primary"
                 : "bg-body-color duration-300 ease-in-out hover:bg-primary/80"
@@ -24,7 +24,7 @@ const Kits = ({ tabs }) => {
       </div>
       {tabs.map((tab) =>
         tab.label === activeTab ? (
-          <div key={tab.id + `_content`} className="p-4 text-center ">
+          <div key={tab.id + `_content`} className="md:p-4 text-center ">
             {tab.content}
 
             <div className="pt-10">

@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <>
       <footer
@@ -30,7 +32,7 @@ const Footer = () => {
             </div>
             <div>
               <p className="font-paytone text-center text-base text-primary dark:text-white">
-                © 2023 - Escenit Media S.L
+                © {currentYear} - Escenit Media S.L
               </p>
             </div>
           </div>
