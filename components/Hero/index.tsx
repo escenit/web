@@ -67,7 +67,7 @@ const Hero = () => {
         </div>
 
         <div className="container absolute bottom-16 right-0 left-0 w-full">
-          <div className="wow fadeInUp" data-wow-delay="0.6s">
+          <div className="w-full md:w-1/2 mx-auto wow fadeInUp" data-wow-delay="0.6s">
             <Social />
           </div>
         </div>

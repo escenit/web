@@ -1,7 +1,10 @@
 import WorkWithUs from "./WorkWithUs";
 import Link from "next/link";
+import { useState } from "react";
 
 const Contact = () => {
+  const [isPrivacyAccepted, setIsPrivacyAccepted] = useState(false);
+
   const handleSubmit = async (event) => {
     event.preventDefault();
     const data = {
@@ -25,8 +28,7 @@ const Contact = () => {
           <div className="w-full px-4 lg:w-7/12 xl:w-8/12">
             <div
               className="wow fadeInUp mb-12 h-full rounded-md bg-primary/[3%] py-11 px-8 dark:bg-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"
-              data-wow-delay=".15s
-              "
+              data-wow-delay=".15s"
             >
               <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
                 ¿Quieres contactar con nosotros?
@@ -90,8 +92,33 @@ const Contact = () => {
                       ></textarea>
                     </div>
                   </div>
+                  <div className="w-full px-4">
+                    <div className="mb-8 flex items-center">
+                      <input
+                        type="checkbox"
+                        id="privacy"
+                        checked={isPrivacyAccepted}
+                        onChange={(e) => setIsPrivacyAccepted(e.target.checked)}
+                        className="h-5 w-5 accent-primary focus:ring-primary border-gray-300 rounded"
+                      />
+                      <label
+                        htmlFor="privacy"
+                        className="ml-2 text-sm font-medium text-dark dark:text-white"
+                      >
+                        Acepto la{" "}
+                        <Link href="/privacy-policy" className="text-primary hover:underline">
+                          política de privacidad
+                        </Link>
+                      </label>
+                    </div>
+                  </div>
                   <div className="w-full px-4 text-center">
-                    <button className="rounded-md bg-primary py-4 px-9 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+                    <button
+                      className={`rounded-md bg-primary py-4 px-9 text-base font-medium text-white transition duration-300 ease-in-out ${
+                        isPrivacyAccepted ? "hover:bg-opacity-80 hover:shadow-signUp" : "opacity-50 cursor-not-allowed"
+                      }`}
+                      disabled={!isPrivacyAccepted}
+                    >
                       ENVIAR
                     </button>
                   </div>
